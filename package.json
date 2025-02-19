@@ -1,14 +1,15 @@
 {
-  "name": "ai-image-generator",
+  "name": "dream-pic-ai",
   "version": "1.0.0",
-  "description": "AI Image Generator using Replicate API",
+  "description": "AI-powered image generation app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "axios": "^1.4.0"
+    "axios": "^1.3.5"
   }
 }
